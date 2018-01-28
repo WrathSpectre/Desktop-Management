@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group
+        android:id="@+id/connection_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/connection"
+            android:icon="@drawable/phonelink"
+            android:title="Connection"/>
+    </group>
+
+    <item android:title="Desktop management">
+        <menu>
+            <group android:id="@+id/basic_functionality"
+                   android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/controls"
+                    android:icon="@drawable/controls_icon"
+                    android:title="Desktop controls"/>
+
+                <item
+                    android:id="@+id/mouse_and_keyboard"
+                    android:icon="@drawable/keyboard_icon"
+                    android:title="Mouse and keyboard"/>
+
+                <item
+                    android:id="@+id/system_and_hardware"
+                    android:icon="@drawable/hardware_icon"
+                    android:title="System and hardware"/>
+
+                <item
+                    android:id="@+id/command_line"
+                    android:icon="@drawable/command_icon"
+                    android:title="Command line"/>
+
+                <item
+                    android:id="@+id/file_manager"
+                    android:icon="@drawable/storage_icon"
+                    android:title="File manager"/>
+
+                <item
+                    android:id="@+id/cast_multimedia"
+                    android:icon="@drawable/cast_icon"
+                    android:title="Cast multimedia"/>
+
+                <item
+                    android:id="@+id/password_manager"
+                    android:icon="@drawable/password_icon"
+                    android:title="Password manager"/>
+
+                <item
+                    android:id="@+id/clipboard"
+                    android:icon="@drawable/clipboard_icon"
+                    android:title="Clipboard"/>
+            </group>
+        </menu>
+    </item>
+
+    <group
+        android:id="@+id/miscellaneous_group"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/settings"
+            android:icon="@drawable/settings_icon"
+            android:title="Settings"/>
+
+        <item
+            android:id="@+id/help"
+            android:icon="@drawable/help_icon2"
+            android:title="Help"/>
+    </group>
+
+</menu>

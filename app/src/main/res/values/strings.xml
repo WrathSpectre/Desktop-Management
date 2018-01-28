@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Computer Control</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+
+    <string-array name="network_names">
+        <item>Home_Network</item>
+        <item>Work_Network</item>
+        <item>My_hotspotk</item>
+        <item>Public computer</item>
+    </string-array>
+</resources>
